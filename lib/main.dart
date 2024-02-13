@@ -22,6 +22,7 @@ class GroceryApp extends StatelessWidget {
       child: MaterialApp(
         home: const HomePage(),
         theme: theme1,
+        debugShowCheckedModeBanner: false,
       ),
     );
   }
