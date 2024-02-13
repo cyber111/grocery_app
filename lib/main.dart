@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:grocery_app/pages/home_page.dart';
+import 'package:grocery_app/pages/spalsh_screen.dart';
 import 'package:grocery_app/providers/product_provider.dart';
 import 'package:grocery_app/themes/my_themes.dart';
 import 'package:provider/provider.dart';
@@ -20,7 +20,7 @@ class GroceryApp extends StatelessWidget {
         )
       ],
       child: MaterialApp(
-        home: const HomePage(),
+        home: const SplashScreen(),
         theme: theme1,
         debugShowCheckedModeBanner: false,
       ),
